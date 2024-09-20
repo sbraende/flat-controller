@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Controller</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Flat Controller</h1>
+    </header>
+    <main>
+        <section>
+            <h4 class="section__title">ZONES</h4>
+            <div class="card">
+                <div class="card__main-row">
+                    <div class="card__main-row-left">
+                        <img class="card__icon" src="/assets/icons/light-bulb-svgrepo-com.svg" alt="">
+                        <h2 class="card__title">All</h2>
+                    </div>
+                    <button class="card__toggleButton" id="all-toggle">ON/OFF</button>
+                </div>
+                <div class="card__slidercontainer">
+                    <input 
+                        type="range" 
+                        min="0" 
+                        max="100" 
+                        value="50" 
+                        class="card__slidercontainer-input" 
+                        id="card__slidercontainer-input--all"
+                    >
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>

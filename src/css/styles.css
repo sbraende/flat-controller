@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-light: rgb(245, 245, 245);
+    --primary-dark: rgb(17, 17, 27);
+    --padding-normal: 1rem;
+    --padding-small: 0.5rem;
+    --border-radius-standard: 8px;
+}
+
+body{
+    background-color: var(--primary-dark);
+}
+
+header{
+    padding: var(--padding-normal);
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary-light);
+}
+
+main{
+    color: var(--primary-light);
+    padding: var(--padding-normal);
+}
+
+.section__title{
+    padding-bottom: var(--padding-small);
+    font-size: 0.75rem;
+}
+
+.card{
+    padding: var(--padding-normal);
+    border-radius: 16px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.card__main-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__main-row-left{
+    display: flex;
+}
+
+.card__icon{
+    width: 30px;
+    height: 30px;
+}
+
+.card__title{
+    color: var(--primary-light);
+}
+
+.card__toggleButton {
+    padding: 1rem 2rem;
+    background-color: rgb(88, 88, 161);
+    border: 0;
+    border-radius: var(--border-radius-standard);
+    color: whitesmoke;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.slidercontainer{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
